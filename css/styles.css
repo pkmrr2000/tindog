@@ -112,7 +112,7 @@ p {
 }
 
 #footer{
-  background-color: #fff;
+  background-color: #000;
 
   text-align:center;
   padding: 2% 0 1%;
@@ -120,12 +120,14 @@ p {
 }
 .ficon{
   margin: 20px 10px;
-  color: black;
+
+  color: white;
   text-decoration: none;
 }
 .ficon:hover{
   color: #ff4c68;
-  
+  transform: scale(3);
+
 }
 @media (max-width:1028) {
 .title{
